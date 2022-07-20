@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+
+    <solid
+        android:color="#FFFFFF"
+        />
+
+    <stroke
+        android:color="#73464D"
+        android:width="10dp"
+        android:dashGap="10dp"
+        android:dashWidth="5dp"
+        />
+    <!-- dashGap(점 사이 넓이) / dashWidth(점 크기) -->
+</shape>

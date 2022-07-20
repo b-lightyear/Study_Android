@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notice_tv_width">100dp</dimen>
+    <dimen name="notice_tv_height">200dp</dimen>
+    <color name="hs_color">#02B0FF</color>
+
+    <!-- 위 태그를 한 번에 합치기
+         스타일을 미리 만들고 주의할 점 : 디자인 단(layout.xml)에서 오류나는 코드는 똑같이 오류가 난다
+         혼동이 있거나 헷갈리는 경우, 레이아웃에서 되는 코드 먼저 검증을 하는게 좋다! -->
+    <style name="notice_tv_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@color/hs_color</item>
+    </style>
+
+
+    <!-- 재정의 -->
+    <style name="notice_tv_style2" parent="notice_tv_style">
+        <item name="android:textSize">15dp</item>
+
+    </style>
+
+</resources>

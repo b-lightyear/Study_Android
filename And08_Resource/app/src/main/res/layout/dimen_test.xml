@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 높이, 색상을 이니셜_style에 미리 지정해놓고 불러와서 사용해보기-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/notice_tv_width"
+        android:layout_height="@dimen/notice_tv_height"
+        android:layout_margin="40dp"
+        android:textSize="30dp"
+        android:background="@color/shs_color"
+        android:text="@string/string_shs" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/notice_tv_style"
+        android:text="TextView"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/notice_tv_style2"
+        android:text="TextView" />
+
+
+</LinearLayout>
